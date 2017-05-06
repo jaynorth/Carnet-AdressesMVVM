@@ -1,6 +1,4 @@
-﻿using Carnet_AdressesMVVM.Model;
-using Carnet_AdressesMVVM.ViewModel;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,16 +16,13 @@ using System.Windows.Shapes;
 namespace Carnet_AdressesMVVM.View
 {
     /// <summary>
-    /// Logique d'interaction pour MainWindow.xaml
+    /// Logique d'interaction pour AdresseDetailView.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class AdresseDetailView : UserControl
     {
-        public MainWindow()
+        public AdresseDetailView()
         {
             InitializeComponent();
-
-            DataContext = new ContactViewModel();
-
         }
     }
 }

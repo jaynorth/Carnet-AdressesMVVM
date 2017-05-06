@@ -18,16 +18,14 @@ using System.Windows.Shapes;
 namespace Carnet_AdressesMVVM.View
 {
     /// <summary>
-    /// Logique d'interaction pour MainWindow.xaml
+    /// Logique d'interaction pour AdressesListView.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class AdressesListView : UserControl
     {
-        public MainWindow()
+        public AdressesListView()
         {
             InitializeComponent();
-
-            DataContext = new ContactViewModel();
-
+            //DataContext = new ContactViewModel();
         }
     }
 }
